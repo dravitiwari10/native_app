@@ -1,0 +1,34 @@
+export const BASE_URL = `http://13.215.231.180/homestaa/api/user/`;
+export const SEND_OTP = `${BASE_URL}otp/send`;
+export const VERIFY_OTP = `${BASE_URL}otp/verify`;
+export const RESEND_OTP = `${BASE_URL}otp/resend`;
+export const LOGOUT = `${BASE_URL}logout`;
+export const LOCATION = `${BASE_URL}location`;
+export const PROFILE = `${BASE_URL}profile`;
+export const NOTIFICATION_LIST = `${BASE_URL}notification/list`;
+export const HOME_LOCATION = `${BASE_URL}home/location`;
+export const HOME = `${BASE_URL}home`;
+export const FAQ_LIST = `${BASE_URL}faq/list`;
+export const CONTACT_US = `${BASE_URL}contactus`;
+export const EVENT_LIST = `${BASE_URL}event/list`;
+export const EVENT_DETAIL = `${BASE_URL}event/detail`;
+export const EVENT_REQUEST_SEND = `${BASE_URL}event/requestSend`;
+export const STATIC_PAGE_LIST = `${BASE_URL}static/page/list`;
+export const Provider_USER_REGISTRATION = `${BASE_URL}provider/add`;
+export const Provider_UPDATE = `${BASE_URL}provider/update`;
+export const LOGIN_WITH_EMAIL = `${BASE_URL}loginwithemail`;
+export const SOCIAL_LOGIN = `${BASE_URL}sociallogin`;
+export const OFFER_FOOD = `${BASE_URL}provider/offerfood/list`;
+export const PROVIDER_PRODUCT_LIST = `${BASE_URL}provider/product/list`;
+export const OFFER_FOOD_ADD_PRODUCT = `${BASE_URL}offerfood/add`;
+export const PROVIDER_PRODUCT_ADD = `${BASE_URL}provider/product/add`;
+export const PROVIDER_PRODUCT_UPDATE = `${BASE_URL}provider/product/update`;
+export const CATEGORY_LIST = `${BASE_URL}common/categorylist`;
+export const CUISINE_LIST = `${BASE_URL}common/cuisinelist`;
+export const PROVIDER_OFFER_FOOD_ADD = `${BASE_URL}provider/offerfood/add`;
+// export const PROVIDER_OFFER_FOOD_ADD = `${BASE_URL}provider/offerfood/add`;
+export const DELETE_OFFER_FOOD = `${BASE_URL}provider/offerfood/delete/`
+export const GET_PROVIDER_DETAILS = `${BASE_URL}provider/me`
+export const EDIT_PROVIDER_DETAILS = `${BASE_URL}provider/profileUpdate`
+
+
