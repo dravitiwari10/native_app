@@ -5,6 +5,7 @@ import Splash from '../screens/Splash';
 import Login from '../screens/Login';
 import LoginSuccess from '../screens/LoginSuccess';
 import CounterScreen from '../screens/CounterScreen';
+import Home from '../screens/Home';
 
 const MainStack = createNativeStackNavigator();
 
@@ -16,7 +17,7 @@ class MainStackNavigator extends React.Component {
   render() {
     return (
       <MainStack.Navigator
-        initialRouteName={'Splash'}
+        initialRouteName={'Home'}
         headerMode="none"
         screenOptions={{
           headerShown: false,
@@ -27,6 +28,7 @@ class MainStackNavigator extends React.Component {
         <MainStack.Screen name={'Login'} component={Login} />
         <MainStack.Screen name={'LoginSuccess'} component={LoginSuccess} />
         <MainStack.Screen name={'CounterScreen'} component={CounterScreen} />
+        <MainStack.Screen name={'Home'} component={Home} />
       </MainStack.Navigator>
     );
   }
